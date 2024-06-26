@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E345EB3F2C28347B00541F9B /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = E345EB3E2C28347B00541F9B /* Alamofire */; };
+		E345EB442C28381E00541F9B /* GoogleTranslateSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E345EB432C28381E00541F9B /* GoogleTranslateSwift */; };
+		E3B743A12C2832150047F01F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B743A02C2832150047F01F /* AppDelegate.swift */; };
+		E3B743A32C2832150047F01F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B743A22C2832150047F01F /* SceneDelegate.swift */; };
+		E3B743A52C2832150047F01F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B743A42C2832150047F01F /* ViewController.swift */; };
+		E3B743A82C2832150047F01F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E3B743A72C2832150047F01F /* Base */; };
+		E3B743AA2C2832180047F01F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3B743A92C2832180047F01F /* Assets.xcassets */; };
+		E3B743AD2C2832180047F01F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E3B743AC2C2832180047F01F /* Base */; };
+		E3B743B82C2832180047F01F /* SMSTranslatorAPPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B743B72C2832180047F01F /* SMSTranslatorAPPTests.swift */; };
+		E3B743C22C2832180047F01F /* SMSTranslatorAPPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B743C12C2832180047F01F /* SMSTranslatorAPPUITests.swift */; };
+		E3B743C42C2832180047F01F /* SMSTranslatorAPPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B743C32C2832180047F01F /* SMSTranslatorAPPUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E3B743B42C2832180047F01F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3B743952C2832150047F01F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3B7439C2C2832150047F01F;
+			remoteInfo = SMSTranslatorAPP;
+		};
+		E3B743BE2C2832180047F01F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3B743952C2832150047F01F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3B7439C2C2832150047F01F;
+			remoteInfo = SMSTranslatorAPP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E3B7439D2C2832150047F01F /* SMSTranslatorAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMSTranslatorAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3B743A02C2832150047F01F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E3B743A22C2832150047F01F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E3B743A42C2832150047F01F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E3B743A72C2832150047F01F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E3B743A92C2832180047F01F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E3B743AC2C2832180047F01F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E3B743AE2C2832180047F01F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3B743B32C2832180047F01F /* SMSTranslatorAPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMSTranslatorAPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3B743B72C2832180047F01F /* SMSTranslatorAPPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMSTranslatorAPPTests.swift; sourceTree = "<group>"; };
+		E3B743BD2C2832180047F01F /* SMSTranslatorAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMSTranslatorAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3B743C12C2832180047F01F /* SMSTranslatorAPPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMSTranslatorAPPUITests.swift; sourceTree = "<group>"; };
+		E3B743C32C2832180047F01F /* SMSTranslatorAPPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMSTranslatorAPPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3B7439A2C2832150047F01F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E345EB442C28381E00541F9B /* GoogleTranslateSwift in Frameworks */,
+				E345EB3F2C28347B00541F9B /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3B743B02C2832180047F01F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3B743BA2C2832180047F01F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E345EB3D2C28347B00541F9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3B743942C2832150047F01F = {
+			isa = PBXGroup;
+			children = (
+				E3B7439F2C2832150047F01F /* SMSTranslatorAPP */,
+				E3B743B62C2832180047F01F /* SMSTranslatorAPPTests */,
+				E3B743C02C2832180047F01F /* SMSTranslatorAPPUITests */,
+				E3B7439E2C2832150047F01F /* Products */,
+				E345EB3D2C28347B00541F9B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E3B7439E2C2832150047F01F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3B7439D2C2832150047F01F /* SMSTranslatorAPP.app */,
+				E3B743B32C2832180047F01F /* SMSTranslatorAPPTests.xctest */,
+				E3B743BD2C2832180047F01F /* SMSTranslatorAPPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3B7439F2C2832150047F01F /* SMSTranslatorAPP */ = {
+			isa = PBXGroup;
+			children = (
+				E3B743A02C2832150047F01F /* AppDelegate.swift */,
+				E3B743A22C2832150047F01F /* SceneDelegate.swift */,
+				E3B743A42C2832150047F01F /* ViewController.swift */,
+				E3B743A62C2832150047F01F /* Main.storyboard */,
+				E3B743A92C2832180047F01F /* Assets.xcassets */,
+				E3B743AB2C2832180047F01F /* LaunchScreen.storyboard */,
+				E3B743AE2C2832180047F01F /* Info.plist */,
+			);
+			path = SMSTranslatorAPP;
+			sourceTree = "<group>";
+		};
+		E3B743B62C2832180047F01F /* SMSTranslatorAPPTests */ = {
+			isa = PBXGroup;
+			children = (
+				E3B743B72C2832180047F01F /* SMSTranslatorAPPTests.swift */,
+			);
+			path = SMSTranslatorAPPTests;
+			sourceTree = "<group>";
+		};
+		E3B743C02C2832180047F01F /* SMSTranslatorAPPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E3B743C12C2832180047F01F /* SMSTranslatorAPPUITests.swift */,
+				E3B743C32C2832180047F01F /* SMSTranslatorAPPUITestsLaunchTests.swift */,
+			);
+			path = SMSTranslatorAPPUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3B7439C2C2832150047F01F /* SMSTranslatorAPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3B743C72C2832180047F01F /* Build configuration list for PBXNativeTarget "SMSTranslatorAPP" */;
+			buildPhases = (
+				E3B743992C2832150047F01F /* Sources */,
+				E3B7439A2C2832150047F01F /* Frameworks */,
+				E3B7439B2C2832150047F01F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E345EB422C28380B00541F9B /* PBXTargetDependency */,
+				E345EB3C2C28347100541F9B /* PBXTargetDependency */,
+			);
+			name = SMSTranslatorAPP;
+			packageProductDependencies = (
+				E345EB3E2C28347B00541F9B /* Alamofire */,
+				E345EB432C28381E00541F9B /* GoogleTranslateSwift */,
+			);
+			productName = SMSTranslatorAPP;
+			productReference = E3B7439D2C2832150047F01F /* SMSTranslatorAPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E3B743B22C2832180047F01F /* SMSTranslatorAPPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3B743CA2C2832180047F01F /* Build configuration list for PBXNativeTarget "SMSTranslatorAPPTests" */;
+			buildPhases = (
+				E3B743AF2C2832180047F01F /* Sources */,
+				E3B743B02C2832180047F01F /* Frameworks */,
+				E3B743B12C2832180047F01F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3B743B52C2832180047F01F /* PBXTargetDependency */,
+			);
+			name = SMSTranslatorAPPTests;
+			productName = SMSTranslatorAPPTests;
+			productReference = E3B743B32C2832180047F01F /* SMSTranslatorAPPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E3B743BC2C2832180047F01F /* SMSTranslatorAPPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3B743CD2C2832180047F01F /* Build configuration list for PBXNativeTarget "SMSTranslatorAPPUITests" */;
+			buildPhases = (
+				E3B743B92C2832180047F01F /* Sources */,
+				E3B743BA2C2832180047F01F /* Frameworks */,
+				E3B743BB2C2832180047F01F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3B743BF2C2832180047F01F /* PBXTargetDependency */,
+			);
+			name = SMSTranslatorAPPUITests;
+			productName = SMSTranslatorAPPUITests;
+			productReference = E3B743BD2C2832180047F01F /* SMSTranslatorAPPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3B743952C2832150047F01F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					E3B7439C2C2832150047F01F = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					E3B743B22C2832180047F01F = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = E3B7439C2C2832150047F01F;
+					};
+					E3B743BC2C2832180047F01F = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = E3B7439C2C2832150047F01F;
+					};
+				};
+			};
+			buildConfigurationList = E3B743982C2832150047F01F /* Build configuration list for PBXProject "SMSTranslatorAPP" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E3B743942C2832150047F01F;
+			packageReferences = (
+				E3B743D02C2832740047F01F /* XCRemoteSwiftPackageReference "Alamofire" */,
+				E345EB402C2837D400541F9B /* XCRemoteSwiftPackageReference "GoogleTranslateSwift" */,
+			);
+			productRefGroup = E3B7439E2C2832150047F01F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3B7439C2C2832150047F01F /* SMSTranslatorAPP */,
+				E3B743B22C2832180047F01F /* SMSTranslatorAPPTests */,
+				E3B743BC2C2832180047F01F /* SMSTranslatorAPPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E3B7439B2C2832150047F01F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3B743AA2C2832180047F01F /* Assets.xcassets in Resources */,
+				E3B743AD2C2832180047F01F /* Base in Resources */,
+				E3B743A82C2832150047F01F /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3B743B12C2832180047F01F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3B743BB2C2832180047F01F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3B743992C2832150047F01F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3B743A52C2832150047F01F /* ViewController.swift in Sources */,
+				E3B743A12C2832150047F01F /* AppDelegate.swift in Sources */,
+				E3B743A32C2832150047F01F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3B743AF2C2832180047F01F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3B743B82C2832180047F01F /* SMSTranslatorAPPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3B743B92C2832180047F01F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3B743C42C2832180047F01F /* SMSTranslatorAPPUITestsLaunchTests.swift in Sources */,
+				E3B743C22C2832180047F01F /* SMSTranslatorAPPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E345EB3C2C28347100541F9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = E345EB3B2C28347100541F9B /* Alamofire */;
+		};
+		E345EB422C28380B00541F9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = E345EB412C28380B00541F9B /* GoogleTranslateSwift */;
+		};
+		E3B743B52C2832180047F01F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3B7439C2C2832150047F01F /* SMSTranslatorAPP */;
+			targetProxy = E3B743B42C2832180047F01F /* PBXContainerItemProxy */;
+		};
+		E3B743BF2C2832180047F01F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3B7439C2C2832150047F01F /* SMSTranslatorAPP */;
+			targetProxy = E3B743BE2C2832180047F01F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E3B743A62C2832150047F01F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3B743A72C2832150047F01F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E3B743AB2C2832180047F01F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3B743AC2C2832180047F01F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E3B743C52C2832180047F01F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E3B743C62C2832180047F01F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E3B743C82C2832180047F01F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SMSTranslatorAPP/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Burak.SMSTranslatorAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E3B743C92C2832180047F01F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SMSTranslatorAPP/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Burak.SMSTranslatorAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E3B743CB2C2832180047F01F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Burak.SMSTranslatorAPPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SMSTranslatorAPP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SMSTranslatorAPP";
+			};
+			name = Debug;
+		};
+		E3B743CC2C2832180047F01F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Burak.SMSTranslatorAPPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SMSTranslatorAPP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SMSTranslatorAPP";
+			};
+			name = Release;
+		};
+		E3B743CE2C2832180047F01F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Burak.SMSTranslatorAPPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SMSTranslatorAPP;
+			};
+			name = Debug;
+		};
+		E3B743CF2C2832180047F01F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Burak.SMSTranslatorAPPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SMSTranslatorAPP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E3B743982C2832150047F01F /* Build configuration list for PBXProject "SMSTranslatorAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3B743C52C2832180047F01F /* Debug */,
+				E3B743C62C2832180047F01F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3B743C72C2832180047F01F /* Build configuration list for PBXNativeTarget "SMSTranslatorAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3B743C82C2832180047F01F /* Debug */,
+				E3B743C92C2832180047F01F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3B743CA2C2832180047F01F /* Build configuration list for PBXNativeTarget "SMSTranslatorAPPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3B743CB2C2832180047F01F /* Debug */,
+				E3B743CC2C2832180047F01F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3B743CD2C2832180047F01F /* Build configuration list for PBXNativeTarget "SMSTranslatorAPPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3B743CE2C2832180047F01F /* Debug */,
+				E3B743CF2C2832180047F01F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E345EB402C2837D400541F9B /* XCRemoteSwiftPackageReference "GoogleTranslateSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielsaidi/GoogleTranslateSwift.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		E3B743D02C2832740047F01F /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E345EB3B2C28347100541F9B /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E3B743D02C2832740047F01F /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		E345EB3E2C28347B00541F9B /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E3B743D02C2832740047F01F /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		E345EB412C28380B00541F9B /* GoogleTranslateSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E345EB402C2837D400541F9B /* XCRemoteSwiftPackageReference "GoogleTranslateSwift" */;
+			productName = GoogleTranslateSwift;
+		};
+		E345EB432C28381E00541F9B /* GoogleTranslateSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E345EB402C2837D400541F9B /* XCRemoteSwiftPackageReference "GoogleTranslateSwift" */;
+			productName = GoogleTranslateSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E3B743952C2832150047F01F /* Project object */;
+}

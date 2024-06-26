@@ -1,0 +1,33 @@
+{
+  "originHash" : "9cf9fb778cda863fd133632ac476ae8f612c7242bbb2ba67772c29dd0445857a",
+  "pins" : [
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire",
+      "state" : {
+        "revision" : "f455c2975872ccd2d9c81594c658af65716e9b9a",
+        "version" : "5.9.1"
+      }
+    },
+    {
+      "identity" : "googletranslateswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/danielsaidi/GoogleTranslateSwift.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "f30cbbe269df0a61aa86596176f8f90125d9a708"
+      }
+    },
+    {
+      "identity" : "swiftkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/danielsaidi/SwiftKit.git",
+      "state" : {
+        "revision" : "3cd5182ee809194d0cc17b649daa2e6dca94871b",
+        "version" : "0.7.0"
+      }
+    }
+  ],
+  "version" : 3
+}
