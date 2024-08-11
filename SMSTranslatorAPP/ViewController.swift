@@ -39,7 +39,7 @@ class ViewController: UIViewController {
     }
 
     func translateMessage(_ message: String, completion: @escaping (String) -> Void) {
-        let apiKey = "AIzaSyDets_Xo7aKTl8QTk8xKLuketLTdfZjMVY"
+        let apiKey = "apiKey"
         let url = "https://translation.googleapis.com/language/translate/v2"
         let parameters: Parameters = [
             "q": message,
